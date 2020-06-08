@@ -12,6 +12,7 @@ int main() {
     while (true) {
       while (std::getline(ifs, line)) {
         // CODE TO PERFORM OPERATIONS WITH DATA FROM FILE, READ LINE BY LINE
+        std::cout << line << std::endl;
       }
       
       if (!ifs.eof()) break; //Ensure this is the end of the file
